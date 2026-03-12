@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualização de Horários</title>
+    
+    <!-- ======================================================= -->
+    <!-- META TAGS PARA WHATSAPP / REDES SOCIAIS (OPEN GRAPH)    -->
+    <!-- ======================================================= -->
+    <meta property="og:title" content="Atualização de Horários">
+    <meta property="og:description" content="Por favor verifique os horários que cumprirá a partir de ABR/2026 e ajuste possíveis discrepâncias.">
+    <meta property="og:image" content="https://i.imgur.com/MR53HMG.png">
+    <meta property="og:type" content="website">
+
+    <!-- ======================================================= -->
+    <!-- COMANDO DE REDIRECIONAMENTO IMEDIATO                    -->
+    <!-- ======================================================= -->
+    <!-- O número 0 indica que o redirecionamento é em 0 segundos -->
+    <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbxpOw42TCg-CZWvLUtLsrYOj8q2QgKZ2o4Zk1Mht3WhjYBFGvE-WHtHynlJkaYUChEf7g/exec">
+
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0f4f8;
+            color: #050f41;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .spinner {
+            border: 4px solid #e2e8f0; 
+            border-top: 4px solid #050f41;
+            border-radius: 50%; 
+            width: 40px; 
+            height: 40px; 
+            animation: spin 1s linear infinite;
+            margin-bottom: 16px;
+        }
+        @keyframes spin { 
+            0% { transform: rotate(0deg); } 
+            100% { transform: rotate(360deg); } 
+        }
+    </style>
+</head>
+<body>
+    <div class="loading">
+        <div class="spinner"></div>
+        <p>A redirecionar para o formulário seguro...</p>
+    </div>
+
+    <!-- Fallback em JavaScript caso a meta tag refresh seja bloqueada por algum navegador específico -->
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://script.google.com/macros/s/AKfycbxpOw42TCg-CZWvLUtLsrYOj8q2QgKZ2o4Zk1Mht3WhjYBFGvE-WHtHynlJkaYUChEf7g/exec";
+        }, 100);
+    </script>
+</body>
+</html>
